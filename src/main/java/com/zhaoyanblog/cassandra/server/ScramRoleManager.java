@@ -22,6 +22,11 @@ import java.security.SecureRandom;
 import java.util.Map;
 import java.util.concurrent.Callable;
 
+/**
+ * User Manage
+ *
+ * @author johnyannj
+ */
 public class ScramRoleManager extends CassandraRoleManager {
 
     static final String DEFAULT_SUPERUSER_NAME = "cassandra";

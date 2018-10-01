@@ -8,6 +8,11 @@ import com.zhaoyanblog.cassandra.SecureUtils;
 import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 
+/**
+ *  Scram client
+ *
+ * @author johnyannj
+ */
 public class ScramAuthProvider implements AuthProvider {
 
     private String username;

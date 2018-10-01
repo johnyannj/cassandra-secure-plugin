@@ -6,6 +6,11 @@ import java.nio.charset.StandardCharsets;
 import java.security.*;
 import java.util.Base64;
 
+/**
+ *  Secure commons
+ *
+ * @author johnyannj
+ */
 public abstract class SecureUtils {
 
     private static SecureRandom DEFAULT_SECURE_RANDOM;

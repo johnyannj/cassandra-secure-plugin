@@ -7,7 +7,6 @@ import org.apache.cassandra.auth.PasswordAuthenticator;
 import org.apache.cassandra.exceptions.AuthenticationException;
 import org.apache.cassandra.exceptions.RequestExecutionException;
 import org.apache.commons.lang3.StringUtils;
-import org.slf4j.LoggerFactory;
 
 import java.lang.reflect.Field;
 import java.net.InetAddress;
@@ -15,7 +14,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
-
+/**
+ *  Scram Server
+ *
+ * @author johnyannj
+ */
 public class ScramAuthenticator extends PasswordAuthenticator {
 
     private AuthCache<String, String> authCacheProxy;
@@ -138,7 +141,6 @@ public class ScramAuthenticator extends PasswordAuthenticator {
                 byte[] clientKey = SecureUtils.xor(SecureUtils.fromBase64(clientProof), clientSignature);
                 byte[] storeKey = SecureUtils.hash(clientKey, "SHA-256");
                 if (!userSecureInfo.storeKey.equals(SecureUtils.base64(storeKey))) {
-                    LoggerFactory.getLogger("").error("1----");
                     throw new AuthenticationException("client-final-message is error.");
                 }
                 complete = true;
