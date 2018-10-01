@@ -22,7 +22,7 @@ role_manager: com.zhaoyanblog.cassandra.server.ScramRoleManager
 
 ## Client
 
-You can install it in your application using the following Maven dependency
+The project is available on Maven Central. You can install it in your application using the following Maven dependency
 
 ```
 <groupId>com.zhaoyanblog</groupId>  
