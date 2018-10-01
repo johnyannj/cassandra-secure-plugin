@@ -1,4 +1,4 @@
-# cassandra secure plugin
+# Cassandra Secure Plugin
 #####
 Cassandra security authentication plug-in based on SCRAM-SHA256 algorithm.
 
