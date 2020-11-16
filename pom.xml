@@ -9,7 +9,7 @@
 
     <name>cassandra-secure-plugin</name>
     <url>https://github.com/johnyannj/cassandra-secure-plugin</url>
-    <description>Cassandra security authentication plug-in based on SCRAM-SHA256 algorithm.</description>
+    <description>Cassandra security authentication plug-in based on SCRAM-SHA-256 algorithm.</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
