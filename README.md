@@ -1,6 +1,6 @@
 # Cassandra Secure Plugin
 #####
-Cassandra security authentication plug-in based on SCRAM-SHA256 algorithm.
+Cassandra security authentication plug-in based on SCRAM-SHA-256 algorithm.
 
 https://wiki.tools.ietf.org/html/rfc5802
 
