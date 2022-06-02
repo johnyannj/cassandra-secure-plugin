@@ -2,9 +2,8 @@
 #####
 Cassandra security authentication plug-in based on SCRAM-SHA-256 algorithm.
 
-https://wiki.tools.ietf.org/html/rfc5802
-
-https://tools.ietf.org/html/rfc7677
+RFC5802: https://tools.ietf.org/html/rfc5802
+RFC7677: https://tools.ietf.org/html/rfc7677
 
 ## Compile
 `
